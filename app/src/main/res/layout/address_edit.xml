@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<Spinner
+    android:id="@+id/designation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:entries="@array/designation" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/firstName"
+            android:tooltipText="First Name"
+            />
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="218dp"
+            android:hint="@string/lastName"
+            android:layout_height="wrap_content"
+            android:tooltipText="Last Name"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/address"
+            android:paddingTop="5dp"
+            />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Spinner
+            android:id="@+id/province"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/province"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/country"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/postalCode"
+            android:layout_marginTop="20dp"
+            android:paddingTop="5dp" />
+
+ <EditText
+        android:id="@+id/postalcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/confirm"
+            android:background="@color/Blue"
+            android:paddingTop="5dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

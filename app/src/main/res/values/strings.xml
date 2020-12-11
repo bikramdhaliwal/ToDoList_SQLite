@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name"
+        >MyAddressPlus</string>
+    <string name="about">About</string>
+    <string name="insert">Insert</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="nostring">Blank list.Nothing to show in this list this time.</string>
+    <string name="address">Address</string>
+    <string name="country">Country</string>
+    <string name="postalCode">Postal Code</string>
+    <string name="confirm">Confirm</string>
+    <string name="menu_delete">Delete Todo</string>
+    <string name="aboutText">My AddressPlus is a nice and simple Android Application
+    that allows a user to query/insert/update/delete his home address. It is written for
+    android API 11 or newer. It supports Tablets.</string>
+</resources>
